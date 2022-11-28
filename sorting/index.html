@@ -15,7 +15,7 @@ document.write(" simple ====>" + num);
 
 num.sort(function(a, b){return a - b})
 document.write("in sort  ====>" + num);
-
+// new work
 var a = 10;
 var b = 20;
 
@@ -26,6 +26,30 @@ b = temp;
 
 console.log("==>" +a);
 console.log("==>" +b);
+
+
+// example
+   var num = 123456789
+   console.log(num);
+   var split = num.toString().split(".")
+   var join = split[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+   console.log(split);
+   console.log(join);
+//    join.join(".")
+   console.log("final result " + join);
+
+
+
+const numb=213231221;
+
+function separator(numb) {
+    var str = numb.toString().split(".");
+    console.log(str)
+    str[0] = str[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return str.join(".");
+}
+
+console.log(separator(numb))
 
     </script>
 </body>
