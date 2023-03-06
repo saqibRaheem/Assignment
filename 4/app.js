@@ -3,7 +3,6 @@ document.write(onestatement + "<br><br>")
 
 
 
-
 var legal1 = "num";
 var legal2="elephent";
 var legal3="material";
