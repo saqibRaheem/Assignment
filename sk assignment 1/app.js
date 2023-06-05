@@ -204,3 +204,40 @@ f5 = f5+(num + ", ") ;
     num++ ;
 }
 console.log('First 5 happy numbers are : '+f5);
+
+// ***************************   //
+
+var tab = prompt("Enter a number to jenerate tabel")
+
+for (var i = 2 ; i <= tab ; i++){
+  for(var j = 1; j <=10 ; j++){
+    console.log(i + " * " + j + " = " + (i*j));
+  }
+  // if(i !== tab){
+
+  //   console.log(i=1 + " * " + i + " = " + (i*i) ) ;
+  //   // console.log(tab + " * " + i + " = " + (i*tab) ) ;
+  // }else if(i == tab){
+  //   // console.log(i=1 + " * " + i + " = " + (i*i) ) ;
+  //   console.log(tab + " * " + i + " = " + (i*tab) ) ;
+
+  // }
+}
+
+// ////////////////////////////
+
+  // var number = parseInt(prompt("Enter number " + (i + 1) + ":"));
+
+  // console .log(number); // Add an empty line between tables
+
+// for (var i = 0; i < number; i++) {
+
+  // for (var j = 2; j <= number; j++) {
+  //   var row = "";
+  //   for (var k = 1; k <= 10; k++) {
+  //     row += (j * k) + "# ";
+  //   }
+  //   console.log(" " + j + " |" + row);
+  // }
+  
+// }
