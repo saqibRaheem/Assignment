@@ -1,3 +1,23 @@
+// 2. Write a JavaScript program that accept two integers and
+// display the larger. Also show if the two integers are equal.
+
+var num1 = Number(prompt("enter a first number"))
+var num2 = Number(prompt("enter a second number"))
+
+if(num1 > num2){
+alert(num1 + "is larger")
+}else if(num2 > num1){
+  alert(num2 + "is larger")
+}else{
+  alert("Both Are Equal")
+}
+
+
+
+
+
+
+
 // 6. This if/else statement does not work. Try to fix it:
 
 
@@ -76,10 +96,29 @@ else{
 // 4. Write a program that takes a character (i.e. string of 
 //   length 1) and returns true if it is a vowel, false otherwise
 
-var kam = prompt("Enter the Alphabate");
-if(kam === 'a'||'e'||'i'||'o'||'u' ){
+var alph = prompt("Enter the Alphabate");
+if(alph === 'a'||'e'||'i'||'o'||'u' ){
   document.write("This statement is True" );
 }
 else{
   document.write("This Statement is False ");
+}
+
+
+7.// Write a program that takes time as input from user in 24 
+// hours clock format like: 1900 = 7pm. Implement the 
+// following case using if, else & else if statements
+
+var time = Number(prompt("Enter the time in 24-hour clock format (e.g., 1900):"));
+
+if (time >= 0 && time < 1200) {
+    console.log("Good morning!");
+} else if (time >= 1200 && time < 1700) {
+    console.log("Good afternoon!");
+} else if (time >= 1700 && time < 2100) {
+    console.log("Good evening!");
+} else if (time >= 2100 && time <= 2359) {
+    console.log("Good night!");
+} else {
+    console.log("Invalid time input. Please enter a time in the range 0000 to 2359.");
 }

@@ -1,0 +1,32 @@
+@font-face{
+font-family: 'creative';
+src: url('./Great_Vibes/GreatVibes-Regular.ttf');
+}
+/* body{
+font-family: 'Borel', cursive;
+font-family: 'Great Vibes', cursive;
+} */
+.per::first-line{
+    font-family:creative;
+    font-size: 200%;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: blink;
+    line-height: 1.6em;
+    /* letter-spacing: 0.5em; */
+    /* word-spacing: 1em; */
+}
+h1:hover{
+cursor: pointer;
+/* text-indent: 25px; */
+font-size: 3.5em;
+text-shadow: 3px 21px 4px #7a7676;
+}
+/* a:link{
+    text-decoration: none;
+    color: rgb(201, 38, 65);
+}
+a:visited{
+    color: black;
+} */

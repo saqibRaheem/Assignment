@@ -149,11 +149,12 @@ document.write("<br>")
 document.write("<b> Find Smallest Number:</b>" +"<br>")
 var arr =[24,53,78,91,21];
 var smallest = arr[0];
- 
+ console.log(smallest,">>>>>>>>>");
 for(i=1; i<arr.length;i++){
     if(arr[i]<smallest){
         var smallest=arr[i]
     }
+    // console.log(smallest);
 }document.write(smallest)
 
 
